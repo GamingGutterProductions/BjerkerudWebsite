@@ -1,0 +1,61 @@
+        /* Inline styles for demonstration purposes; consider moving to an external CSS file */
+        body {
+            font-family: Inter, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+        .product-container {
+            display: flex;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .product-image {
+            flex: 1;
+        }
+        .product-image img {
+            max-width: 100%;
+            height: auto;
+            background-color: white;
+            border-radius: 25px;
+            border: 2px solid black;
+            padding: 20px; 
+            width: 350px;
+            height: 350px; 
+        }
+        .product-details {
+            flex: 1;
+            padding: 20px;
+        }
+        h1, h2, p {
+            margin: 0;
+        }
+        .product-name {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: white;
+        }
+        .product-price {
+            font-size: 18px;
+            color: white;
+        }
+        .product-description {
+            margin-top: 20px;
+            color: white;
+        }
+        .buy-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .buy-button:hover {
+            background-color: #2980b9;
+        }
+
+        
