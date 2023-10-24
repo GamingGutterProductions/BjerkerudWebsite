@@ -44,13 +44,13 @@
         <button onclick="addToCart('Product 3', 8.99)">Add to Cart</button>
     </div> -->
 
-    <!-- Cart icon -->
+    <!-- Cart icon
     <div class="cart-icon" onclick="toggleCartPopup()">
         🛒<span id="item-count" class="item-count">0</span>
-    </div>
+    </div> -->
 
     <!-- Cart popup -->
-    <div class="cart-popup" id="cart-popup">
+    <!-- <div class="cart-popup" id="cart-popup">
         <h2>Shopping Cart</h2>
         <table>
             <tr>
@@ -59,20 +59,20 @@
                 <th>Quantity</th>
                 <th>Total</th>
             </tr>
-            <tbody id="cart-popup-items">
+            <tbody id="cart-popup-items"> -->
                 <!-- Cart items will be displayed here -->
-            </tbody>
+            <!-- </tbody>
             <tr>
                 <td colspan="3">Total:</td>
                 <td id="cart-popup-total">$0.00</td>
             </tr>
-        </table>
+        </table> -->
         <!-- Purchase button in the cart popup -->
-        <button onclick="completePurchase()">Purchase</button>
-    </div>
+        <!-- <button onclick="completePurchase()">Purchase</button>
+    </div> -->
 
     <!-- Purchase popup -->
-    <div class="purchase-popup" id="purchase-popup">
+    <!-- <div class="purchase-popup" id="purchase-popup">
         <h2>Thank you for your purchase!</h2>
     </div>
     
@@ -96,9 +96,9 @@
             const cartTotalElement = document.getElementById('cart-total');
             const itemCountElement = document.getElementById('item-count');
             let cartTotal = 0;
-            let itemCount = 0;
+            let itemCount = 0; -->
 
-            // Clear the previous cart items
+            <!-- // Clear the previous cart items
             cartItemsElement.innerHTML = '';
 
             // Loop through cart and display items
@@ -159,6 +159,6 @@
             // Display the total in the popup
             cartPopupTotalElement.textContent = `$${cartPopupTotal.toFixed(2)}`;
         }
-    </script>
+    </script> -->
 </body>
 </html>
