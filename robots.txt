@@ -4,7 +4,3 @@ Disallow: /PolitikkVideo.mp4
 Crawl-delay: 120
 Disallow: /cgi-bin/
 Sitemap: bjerkerud.no/sitemap.xml
-
-Crawl-delay: 120
-Disallow: /cgi-bin/
-Sitemap: bjerkerud.no/sitemap.xml
