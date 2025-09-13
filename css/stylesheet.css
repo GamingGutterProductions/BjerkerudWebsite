@@ -55,7 +55,7 @@ a{
 }
  
 p{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
  
 .container
@@ -127,18 +127,4 @@ footer {
   background-color: #222;   /* optional: dark background */
   padding: 20px;            /* optional: some spacing */
   text-align: center;       /* center horizontally */
-}
-
-footer p {
-  color: white;             /* white text */
-  margin: 0;                /* remove extra spacing */
-}
-
-footer a {
-  color: white;             /* make the link white */
-  text-decoration: none;    /* remove underline */
-}
-
-footer a:hover {
-  text-decoration: underline; /* underline only on hover */
 }
